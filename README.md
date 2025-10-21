@@ -1,6 +1,7 @@
 # SOC_LAB_Project
 This lab simulates a SOC analyst workflow: detecting suspicious login attempts, investigating IPs, and documenting remediation.
 docker start -ai soc_lab_test
+![Docker Start Screenshot](./screenshots/docker_start.png)
 su - postgres
 # Switch to PostgreSQL user and start server
 /usr/lib/postgresql/16/bin/initdb -D /var/lib/postgresql/data
